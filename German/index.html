@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luma Conversation</title>
-    <link rel="stylesheet" href="smart_assistant.css" />
+    <link rel="stylesheet" href="../smart_assistant.css" />
     <script
       src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
       type="module"
@@ -12,15 +12,17 @@
   </head>
   <body>
     <div class="iphone_mock" id="tap-area">
-      <dotlottie-player
-        class="siri_animation"
-        id="siri_animation"
-        src="https://lottie.host/ec33760a-907d-414d-87e4-e5ff617c20b3/vxehl90Fqy.lottie"
-        background="transparent"
-        speed="1"
-        loop
-        autoplay
-      ></dotlottie-player>
+      <div class="animation_area">
+        <dotlottie-player
+          class="siri_animation"
+          id="siri_animation"
+          src="https://lottie.host/ec33760a-907d-414d-87e4-e5ff617c20b3/vxehl90Fqy.lottie"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></dotlottie-player>
+      </div>
     </div>
     <script>
       let tapCount = 0 // Initialize tap counter
