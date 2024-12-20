@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.iphone_mock {
+  width: calc(100vw - 60px);
+  height: calc(100vh - 60px);
+  padding: 30px;
+  position: relative;
+  background-color: #262626;
+}
+.siri_animation {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  height: 150px;
+  width: 150px;
+}
